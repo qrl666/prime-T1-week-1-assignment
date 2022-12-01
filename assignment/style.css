@@ -1,18 +1,18 @@
 /* Give your page a fun background color */
 body{
-    background-image: to right,rgb(204, 204, 255, 1), rgb(204, 204, 255, 0);
+    background-color: rgb(204, 204, 255, 1);
 }
 /* Make the header and footer a different color from the background */
 header{
     background: url(https://static.vecteezy.com/system/resources/thumbnails/004/768/323/small/purple-sky-and-white-cloud-colored-wide-sky-and-gradient-and-white-cloud-texture-and-striped-abstract-dirty-photo.jpg);
-    background-size: cover;
-    background-repeat: no-repeat;
+    background-size: contain;
+    background-repeat: repeat;
 }
 
 footer{
     background: url(https://media.istockphoto.com/id/1018056532/vector/vector-illustration-of-mountain-landscape-with-multiple-layers-fog-and-yellow-purple-sky.jpg?s=612x612&w=0&k=20&c=H06VAjGLW4GwwfzULpCHuDEXRVNfgd2VAGnqHWi12Jk=);
-  background-size: cover;
-  background-repeat: no-repeat;
+  background-size: contain;
+  background-repeat: repeat;
 }
 /* Align the h1 containing your name in the center of the header*/
 h1{
@@ -21,11 +21,18 @@ h1{
 /* Make your p tag a different color and italic */
 p{
     color: #530116;
-    text-shadow: 2px 2px;
+    text-shadow: 1px 1px;
     font-style: italic;
+    padding-top: 5px;
+    padding-right: 5px;
+    padding-bottom: 7px;
+    padding-left: 5px;
 }
 /* Put a border around your image */
 img{
+    width: 300px;
+    height: 200px;
+    object-fit: scale-down;
     border-style: outset;
     border-width: 5px;
     border-color: #855f39;
