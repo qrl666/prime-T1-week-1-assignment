@@ -17,12 +17,17 @@ footer{
 /* Align the h1 containing your name in the center of the header*/
 h1{
     text-align: center;
+    padding-top: 10px;
+    padding-right: 5px;
+    padding-bottom: 10px;
+    padding-left: 5px;
 }
 /* Make your p tag a different color and italic */
 p{
-    color: #530116;
-    text-shadow: 1px 1px;
+    color: #8f0426;
+    text-shadow: 1px 1px black;
     font-style: italic;
+    text-align: right;
     padding-top: 5px;
     padding-right: 5px;
     padding-bottom: 7px;
